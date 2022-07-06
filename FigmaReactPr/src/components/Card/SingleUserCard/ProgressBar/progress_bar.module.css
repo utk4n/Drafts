@@ -1,0 +1,19 @@
+.progress_bar {
+    width: 100%;
+    background-color: rgba(241, 242, 247, 1);
+    height: 8px;
+    border-radius: 75px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.progress_bar::after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    height: 100%;
+    border-radius: 75px;
+    background-color: #1BE3A7;
+    width: 65%;
+}

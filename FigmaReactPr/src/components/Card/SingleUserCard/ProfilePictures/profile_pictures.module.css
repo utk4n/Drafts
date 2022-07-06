@@ -1,0 +1,38 @@
+h4 {
+    color: rgba(113, 121, 134, 1);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.pp {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.profile_pictures img {
+    margin-inline-end: 5px;
+
+}
+
+.profile_pictures img:last-child {
+    position: relative;
+    background-image: url(https://svgshare.com/i/iqK.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* .profile_pictures img:last-child::before {
+    content: '';
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+} */

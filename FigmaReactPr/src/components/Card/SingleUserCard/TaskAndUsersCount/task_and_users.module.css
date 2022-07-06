@@ -1,0 +1,49 @@
+.task_and_users_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 1);
+    padding: 12px;
+    border-radius: 7px;
+
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(205, 220, 238, 1);
+    padding-right:10px ;
+}
+
+.tasks p:first-child {
+    color: rgba(60, 85, 122, 1);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.tasks p:last-child {
+    color: rgba(113, 121, 134, 1);
+    font-size: 12px;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.users p:first-child {
+    color: rgba(60, 85, 122, 1);
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.users p:last-child {
+    color: rgba(113, 121, 134, 1);
+    font-size: 12px;
+}

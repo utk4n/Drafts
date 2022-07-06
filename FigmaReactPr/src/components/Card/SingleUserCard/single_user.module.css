@@ -1,0 +1,38 @@
+.single_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 380px;
+    min-height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 36px 12px rgba(80, 126, 169, 0.12);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #E5E5E5;
+}
+
+.card_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.card_top_right_icons img{
+    height: 16px;
+    width: 5px;
+}
+
+
+.user_picture {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.status{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
